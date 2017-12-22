@@ -26,6 +26,9 @@ import com.in28minutes.data.api.TodoService;
 @RunWith(MockitoJUnitRunner.class)
 public class TodoBusinessImplMockitoInjectMocksTest {
 
+  // @Rule
+  // public MockitoRule mockitoRule = MockitoJUnit.rule();
+
   @Mock
   TodoService todoServiceMock;
 
